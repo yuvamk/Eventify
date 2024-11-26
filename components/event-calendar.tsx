@@ -2,7 +2,7 @@
 
 import * as React from "react"
 import { Calendar } from "@/components/ui/calendar"
-import { Dialog, DialogContent, DialogHeader, DialogTitle, DialogTrigger } from "@/components/ui/dialog"
+import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog" // Removed DialogTrigger
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
@@ -108,4 +108,3 @@ export function EventCalendar() {
     </div>
   )
 }
-
